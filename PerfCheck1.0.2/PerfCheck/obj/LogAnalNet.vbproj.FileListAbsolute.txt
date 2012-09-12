@@ -1,0 +1,147 @@
+C:\WINDOWS\assembly\GAC\stdole\7.0.3300.0__b03f5f7f11d50a3a\stdole.dll
+C:\LogAnalNet.exe
+C:\LogAnalNet.pdb
+C:\LogAnalNet.xml
+C:\bin\Debug\LogAnalNet.exe
+C:\bin\Debug\LogAnalNet.pdb
+C:\bin\Debug\LogAnalNet.xml
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\obj\Debug\ResolveAssemblyReference.cache
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\obj\Debug\Interop.Scripting.dll
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\obj\Debug\Interop.Win.dll
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.vbproj.ResolveComReference.cache
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.vbproj.GenerateResource.Cache
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\bin\Debug\Interop.Scripting.dll
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\bin\Debug\Interop.Win.dll
+J:\Projects\loganalyzer\loganalyzervb2\LogAnalNet530\LogAnalNet\obj\Debug\ResolveAssemblyReference.cache
+J:\Projects\loganalyzer\loganalyzervb2\LogAnalNet530\LogAnalNet\obj\Debug\Interop.Scripting.dll
+J:\Projects\loganalyzer\loganalyzervb2\LogAnalNet530\LogAnalNet\obj\Debug\LogAnalNet.vbproj.ResolveComReference.cache
+J:\Projects\loganalyzer\loganalyzervb2\LogAnalNet530\LogAnalNet\obj\Debug\LogAnalNet.Dialog1.resources
+J:\Projects\loganalyzer\loganalyzervb2\LogAnalNet530\LogAnalNet\obj\Debug\LogAnalNet.formMeasurementDetail.resources
+J:\Projects\loganalyzer\loganalyzervb2\LogAnalNet530\LogAnalNet\obj\Debug\LogAnalNet.FormDiagOpen.resources
+J:\Projects\loganalyzer\loganalyzervb2\LogAnalNet530\LogAnalNet\obj\Debug\LogAnalNet.formListClkCtrl.resources
+J:\Projects\loganalyzer\loganalyzervb2\LogAnalNet530\LogAnalNet\obj\Debug\LogAnalNet.formLogAnalysisMain.resources
+J:\Projects\loganalyzer\loganalyzervb2\LogAnalNet530\LogAnalNet\obj\Debug\LogAnalNet.formSearchString.resources
+J:\Projects\loganalyzer\loganalyzervb2\LogAnalNet530\LogAnalNet\obj\Debug\LogAnalNet.LogAnal.resources
+J:\Projects\loganalyzer\loganalyzervb2\LogAnalNet530\LogAnalNet\obj\Debug\LogAnalNet.formLogAnalSearch.resources
+J:\Projects\loganalyzer\loganalyzervb2\LogAnalNet530\LogAnalNet\obj\Debug\LogAnalNet.Resources.resources
+J:\Projects\loganalyzer\loganalyzervb2\LogAnalNet530\LogAnalNet\obj\Debug\LogAnalNet.vbproj.GenerateResource.Cache
+J:\Projects\loganalyzer\loganalyzervb2\LogAnalNet530\LogAnalNet\obj\Debug\LogAnalNet.exe
+J:\Projects\loganalyzer\loganalyzervb2\LogAnalNet530\LogAnalNet\obj\Debug\LogAnalNet.xml
+J:\Projects\loganalyzer\loganalyzervb2\LogAnalNet530\LogAnalNet\obj\Debug\LogAnalNet.pdb
+J:\Projects\loganalyzer\loganalyzervb2\LogAnalNet530\LogAnalNet\bin\Debug\LogAnalNet.exe
+J:\Projects\loganalyzer\loganalyzervb2\LogAnalNet530\LogAnalNet\bin\Debug\LogAnalNet.pdb
+J:\Projects\loganalyzer\loganalyzervb2\LogAnalNet530\LogAnalNet\bin\Debug\LogAnalNet.xml
+J:\Projects\loganalyzer\loganalyzervb2\LogAnalNet530\LogAnalNet\bin\Debug\Interop.Scripting.dll
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\bin\Debug\Ionic.Zip.dll
+C:\Projects\LogAnalNet\LogAnalNet\bin\Debug\LogAnalNet.exe
+C:\Projects\LogAnalNet\LogAnalNet\bin\Debug\LogAnalNet.pdb
+C:\Projects\LogAnalNet\LogAnalNet\bin\Debug\LogAnalNet.xml
+C:\Projects\LogAnalNet\LogAnalNet\bin\Debug\Ionic.Zip.dll
+C:\Projects\LogAnalNet\LogAnalNet\bin\Debug\Interop.Scripting.dll
+C:\Projects\LogAnalNet\LogAnalNet\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\LogAnalNet\LogAnalNet\obj\Debug\Interop.Scripting.dll
+C:\Projects\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.vbproj.ResolveComReference.cache
+C:\Projects\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.Dialog1.resources
+C:\Projects\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.formMeasurementDetail.resources
+C:\Projects\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.FormDiagOpen.resources
+C:\Projects\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.formListClkCtrl.resources
+C:\Projects\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.formLogAnalysisMain.resources
+C:\Projects\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.formSearchString.resources
+C:\Projects\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.LogAnal.resources
+C:\Projects\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.formLogAnalSearch.resources
+C:\Projects\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.Resources.resources
+C:\Projects\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.vbproj.GenerateResource.Cache
+C:\Projects\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.exe
+C:\Projects\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.xml
+C:\Projects\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.pdb
+C:\Projects\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.formProgress.resources
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\bin\Debug\Ionic.Zip.dll
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\bin\Debug\Interop.Scripting.dll
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\obj\Debug\Interop.Scripting.dll
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.vbproj.ResolveComReference.cache
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.vbproj.GenerateResource.Cache
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\bin\Debug\LogAnalNet.exe
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\bin\Debug\LogAnalNet.pdb
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\bin\Debug\LogAnalNet.xml
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\bin\Debug\Ionic.Zip.dll
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\bin\Debug\Interop.Scripting.dll
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\bin\Debug\Interop.Win.dll
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\obj\Debug\Interop.Scripting.dll
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\obj\Debug\Interop.Win.dll
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.vbproj.ResolveComReference.cache
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.AboutTheTool.resources
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.formProgress.resources
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.Dialog1.resources
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.formMeasurementDetail.resources
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.FormDiagOpen.resources
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.formListClkCtrl.resources
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.formLogAnalysisMain.resources
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.formSearchString.resources
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.LogAnal.resources
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.formLogAnalSearch.resources
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.Resources.resources
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.vbproj.GenerateResource.Cache
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.exe
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.xml
+C:\Users\te150000\Documents\Tools\LogAnalNet\LogAnalNet\obj\Debug\LogAnalNet.pdb
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\bin\Debug\PerfCheck.exe
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\bin\Debug\PerfCheck.pdb
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\bin\Debug\PerfCheck.xml
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.AboutTheTool.resources
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.formProgress.resources
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.Dialog1.resources
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.formMeasurementDetail.resources
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.FormDiagOpen.resources
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.formListClkCtrl.resources
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.formLogAnalysisMain.resources
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.formSearchString.resources
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.LogAnal.resources
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.formLogAnalSearch.resources
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.Resources.resources
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.exe
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.xml
+C:\mc185104\Projects\vbnet\LogAnalNet\trunk\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.pdb
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\bin\Debug\PerfCheck.exe
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\bin\Debug\PerfCheck.pdb
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\bin\Debug\PerfCheck.xml
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.AboutTheTool.resources
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.formProgress.resources
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.Dialog1.resources
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.formMeasurementDetail.resources
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.FormDiagOpen.resources
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.formListClkCtrl.resources
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.formLogAnalysisMain.resources
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.formSearchString.resources
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.LogAnal.resources
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.formLogAnalSearch.resources
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.Resources.resources
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.exe
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.xml
+C:\Projects\LogAnalNet\LogAnalNet\LogAnalNet\obj\Debug\PerfCheck.pdb
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\obj\Debug\ResolveAssemblyReference.cache
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\obj\Debug\Interop.Scripting.dll
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\obj\Debug\Interop.Win.dll
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\obj\Debug\LogAnalNet.vbproj.ResolveComReference.cache
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\obj\Debug\PerfCheck.AboutTheTool.resources
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\obj\Debug\PerfCheck.formProgress.resources
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\obj\Debug\PerfCheck.Dialog1.resources
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\obj\Debug\PerfCheck.formMeasurementDetail.resources
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\obj\Debug\PerfCheck.FormDiagOpen.resources
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\obj\Debug\PerfCheck.formListClkCtrl.resources
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\obj\Debug\PerfCheck.formLogAnalysisMain.resources
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\obj\Debug\PerfCheck.formSearchString.resources
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\obj\Debug\PerfCheck.LogAnal.resources
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\obj\Debug\PerfCheck.formLogAnalSearch.resources
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\obj\Debug\PerfCheck.Resources.resources
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\obj\Debug\LogAnalNet.vbproj.GenerateResource.Cache
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\obj\Debug\PerfCheck.exe
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\obj\Debug\PerfCheck.xml
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\obj\Debug\PerfCheck.pdb
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\bin\Debug\PerfCheck.exe
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\bin\Debug\PerfCheck.pdb
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\bin\Debug\PerfCheck.xml
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\bin\Debug\Ionic.Zip.dll
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\bin\Debug\Interop.Scripting.dll
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\LogAnalNet\bin\Debug\Interop.Win.dll

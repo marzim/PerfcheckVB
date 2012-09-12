@@ -1,0 +1,10 @@
+C:\mc185104\projects\vbnet\perfcheckgit\PerfCheck1.0.2\TestPerfCheck\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\mc185104\projects\vbnet\perfcheckgit\PerfCheck1.0.2\TestPerfCheck\bin\Debug\PerfCheck.Tests.dll
+C:\mc185104\projects\vbnet\perfcheckgit\PerfCheck1.0.2\TestPerfCheck\bin\Debug\PerfCheck.Tests.pdb
+C:\mc185104\projects\vbnet\perfcheckgit\PerfCheck1.0.2\TestPerfCheck\bin\Debug\nunit.framework.dll
+C:\mc185104\projects\vbnet\perfcheckgit\PerfCheck1.0.2\TestPerfCheck\bin\Debug\PerfCheck.exe
+C:\mc185104\projects\vbnet\perfcheckgit\PerfCheck1.0.2\TestPerfCheck\bin\Debug\Ionic.Zip.dll
+C:\mc185104\projects\vbnet\perfcheckgit\PerfCheck1.0.2\TestPerfCheck\bin\Debug\PerfCheck.pdb
+C:\mc185104\projects\vbnet\perfcheckgit\PerfCheck1.0.2\TestPerfCheck\bin\Debug\PerfCheck.xml
+C:\mc185104\projects\vbnet\perfcheckgit\PerfCheck1.0.2\TestPerfCheck\obj\x86\Debug\PerfCheck.Tests.dll
+C:\mc185104\projects\vbnet\perfcheckgit\PerfCheck1.0.2\TestPerfCheck\obj\x86\Debug\PerfCheck.Tests.pdb

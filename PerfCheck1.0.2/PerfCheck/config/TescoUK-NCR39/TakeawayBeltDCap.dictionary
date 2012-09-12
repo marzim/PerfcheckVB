@@ -1,0 +1,55 @@
+; This is the trace file event definition dictionary for TakeawayBelt.ocx DataCapture log
+;aliasname, phrase
+
+; State Changes
+Tab--StateChange, Transition from 
+
+; Motor Control Actions
+Tab->Motor_StopBelt1, Firing Action "Belt1Stop"
+Tab->Motor_StopBelt2, Firing Action "Belt2Stop"
+Tab->Motor_ReverseBelt1, Firing Action "Belt1Reverse"
+Tab->Motor_ForwardBelt1, Firing Action "Belt1Forward"
+Tab->Motor_ForwardBelt2, Firing Action "Belt2Forward"
+
+; Action codes from TAB SM for ScotApp
+Tab->App_ScannerDisable, Firing Action "ScannerDisable",
+Tab->App_ScannerEnable, Firing Action "EnablingScanner",
+Tab->App_BagAreaClear, Firing Action "BagAreaClear",
+Tab->App_BagAreaBackup, Firing Action "BagAreaBackup",
+Tab->App_RequestWeight, Firing Action "RequestWeight",
+
+; Application Events
+Tab<-App_StableGoodWeight, Event 1(0x0001),
+Tab<-App_StableBadWeight, Event 2(0x0002),
+Tab<-App_LightItemExpected, Event 3(0x0003),
+Tab<-App_ScaleReadsZero, Event 4(0x0004),
+Tab<-App_ItemScan, Event 5(0x0005),
+Tab<-App_Reset, Event 6(0x0006),
+Tab<-App_SkipBagging, Event 7(0x0007),
+Tab<-App_FlushAndFinish, Event 8(0x0008),
+Tab<-App_HandleBagAreaBackup, Event 9(0x0009),
+Tab<-App_AppRequestStopBelt, Event 10(0x000A),
+
+; Sensor Events
+Tab<-Sensor_ARisingEdge, Event 32(0x0020),
+Tab<-Sensor_BRisingEdge, Event 33(0x0021),
+Tab<-Sensor_BFallingEdge, Event 34(0x0022),
+Tab<-Sensor_CRisingEdge, Event 35(0x0023),
+Tab<-Sensor_CFallingEdge, Event 36(0x0024),
+
+; Timer definitions for TAB SM
+TabTimer_ItemPassByC, Event 2049(0x0801),
+TabTimer_WaitForNextScan, Event 2050(0x0802),
+TabTimer_BackupFlushDelay, Event 2051(0x0803),
+TabTimer_ItemPassByB, Event 2052(0x0804),
+TabTimer_NoItem, Event 2053(0x0805),
+TabTimer_FlushBelts, Event 2054(0x0806),
+TabTimer_ReverseBelt, Event 2055(0x0807),
+TabTimer_IgnoreSensorB, Event 2056(0x0808),
+TabTimer_Stabilize, Event 2057(0x0809),
+TabTimer_FlushBelt2, Event 2058(0x080A),
+TabTimer_FlatItem, Event 2059(0x080B),
+TabTimer_DelayReadScale, Event 2060(0x080C),
+TabTimer_WaitReadScale, Event 2061(0x080D),
+TabTimer_FlushBelt1, Event 2062(0x080E),
+TabTimer_UnReverseBelt, Event 2063(0x080F),

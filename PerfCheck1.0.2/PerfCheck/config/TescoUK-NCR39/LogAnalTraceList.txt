@@ -1,0 +1,19 @@
+ADK Version : 4.04.00.0.000.339
+Traces=Traces.log
+TraceBak=Traces.log.bak
+tbtrace=tbtrace.log
+tbtraceBak=tbtrace.log.bak
+paTrace=patrace.log
+paTraceBak=patrace.log.bak
+Sec Mgr=SM.log
+Sec MgrBak=SM.log.bak
+Bag Scale=OPOS_BagScale_Flintec.log
+Bag ScaleBak=OPOS_BagScale_Flintec.log.bak
+Scanner=OPOS_Scanner.log
+ScannerBak=OPOS_Scanner.log.bak
+Coin Acceptor=OPOS_CoinAcceptor_CF9520.log
+Coin AcceptorBak=OPOS_CoinAcceptor_CF9520.log.bak
+PSX=psx_ScotAppU.log
+RCM=rcm.log
+RCMBak=rcm.log.bak
+DB Mgr=DbMgr.log

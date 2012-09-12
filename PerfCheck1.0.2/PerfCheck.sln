@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+# SharpDevelop 4.1.0.8000
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PerfCheck", "PerfCheck\PerfCheck.vbproj", "{D4714878-A3D5-43F5-95C5-30FA7094FA4C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PerfCheck.Tests", "TestPerfCheck\PerfCheck.Tests.vbproj", "{F7CA4960-5F56-46FD-9C88-91294C36C295}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4714878-A3D5-43F5-95C5-30FA7094FA4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4714878-A3D5-43F5-95C5-30FA7094FA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4714878-A3D5-43F5-95C5-30FA7094FA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4714878-A3D5-43F5-95C5-30FA7094FA4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7CA4960-5F56-46FD-9C88-91294C36C295}.Debug|Any CPU.Build.0 = Debug|x86
+		{F7CA4960-5F56-46FD-9C88-91294C36C295}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{F7CA4960-5F56-46FD-9C88-91294C36C295}.Debug|x86.Build.0 = Debug|x86
+		{F7CA4960-5F56-46FD-9C88-91294C36C295}.Debug|x86.ActiveCfg = Debug|x86
+		{F7CA4960-5F56-46FD-9C88-91294C36C295}.Release|Any CPU.Build.0 = Release|x86
+		{F7CA4960-5F56-46FD-9C88-91294C36C295}.Release|Any CPU.ActiveCfg = Release|x86
+		{F7CA4960-5F56-46FD-9C88-91294C36C295}.Release|x86.Build.0 = Release|x86
+		{F7CA4960-5F56-46FD-9C88-91294C36C295}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

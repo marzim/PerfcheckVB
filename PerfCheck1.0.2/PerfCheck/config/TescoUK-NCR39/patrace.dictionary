@@ -1,0 +1,14 @@
+POS_ItemSold, [I]CPAApp@549:PAEventProc() data: <SellItemOut
+CardDataToPOS, Operation:[PA_OP_CARD] - Data:[<CardEntryIn
+CardMissingData, lEventCode=[2] PA_EV_DATA_MISSING  lOperationCode=[8] PA_OP_CARD
+CardAmountToPOS, Operation:[PA_OP_CARD] - Data:[<CardEntryIn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schema\PA\CardEntryInv4.0.xsd"><SaleType>normal</SaleType><TenderIn><SaleType>normal</SaleType><Amount>
+CardEntryOut, </Description><IsCreditCard>1</IsCreditCard><SaleType>normal</SaleType></CardEntryOut>
+CardReceipt, Operational data for msg [CARD_ENTRY_OUT_MSG] or [CLUBCARD_OUT_MSG]CardReceipt, lEventCode=[5] PA_EV_RECEIPT_DATA  lOperationCode=[8] PA_OP_CARD
+ClubCardAcked, </Description><IsClubCard>1</IsClubCard><SaleType>normal</SaleType></CardEntryOut>
+CardProcComplete, Processing PA_EV_OPERATION_COMPLETE - PA_OP_CARD
+StaffDiscount, Description is STAFF DISCOUNT
+C&P_Insert, <CardPeripherals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SessionId>
+C&P_Amount, Operation:[PA_OP_CARD] - Data:[<CardEntryIn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schema\PA\CardEntryInv4.0.xsd"><SessionId>2</SessionId><SaleType>normal</SaleType><TenderIn><SaleType>normal</SaleType><Amount>
+C&P_Error, lEventCode=[3] PA_EV_ERROR  lOperationCode=[8] PA_OP_CARD
+C&P_EndSession, Operation:[PA_OP_END_SESSION] - Data:[<EndSessionIn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schema\PA\EndSessionInv4.0.xsd"><SessionId>
+VisaCard, data: <TenderOut xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SaleType>normal</SaleType><Description>VISA CREDIT

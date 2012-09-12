@@ -1,0 +1,8 @@
+Description, key=item-description.  value=
+UnMatched_Weight, UnMatched: Weight increase of
+Matched_Weight, << fastlane::CSecurityManager::OnMatchedWeight
+Unexpected_Increase, UnMatched: App determined this increase of
+Unexpected_Decrease, trace-description=Decrease not allowed
+No_wLDB, No WLDB entries!
+WLDB_Rqst, GetDBMgr().StartItemLookup()
+WLDB_Resp, +/- OnDBLookupSuccess

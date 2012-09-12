@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+	<project name="SSCO Performance Assessment Tool" default="all" basedir=".">
+		
+		<!-- ************* -->
+		<!-- Configuration -->
+		<!-- ************* -->
+		
+		<property name="config" value="Debug" />
+		<property name="projectName" value="PerfCheck" />
+		<!-- for jenkins -->
+		<property name="MainProjectPath" value="${environment::get-variable('MainProjectPath')}\PerfCheck" />
+	    <property name="TestProjectPath" value="${environment::get-variable('MainProjectPath')}\TestPerfCheck" />
+		<property name="JENKINS_HOME" value="${environment::get-variable('JENKINS_HOME')}" />
+		
+		<!-- for commandline -->
+		<!-- <property name="MainProjectPath" value="${directory::get-current-directory()}\PerfCheck" /> -->
+		<!-- <property name="TestProjectPath" value="${directory::get-current-directory()}\TestPerfCheck" /> -->
+		
+		<!-- bin directory of perfcheck -->
+ 		<property name="perfcheck.bin.directory" value="${MainProjectPath}\bin" />
+		<property name="perfcheck.obj.directory" value="${MainProjectPath}\obj" />
+		
+		<!-- bin directory of perfcheck.tests -->
+		<property name="test.perfcheck.bin.directory" value="${TestProjectPath}\bin" />
+		<property name="PartCoverExePath" value="${environment::get-variable('PartCoverPath')}" />
+		
+		<!-- tools properties -->
+		<property name="PartCoverHome" value="${TestProjectPath}\PartCover" />
+		<property name="PartCoverSettingsFileName" value="PartCover.Settings.xml" />
+		<property name="PartCoverReportFileName" value="coverage.xml" />
+		
+		<!-- get the framework targeted -->
+		<property name="msbuild" value="C:\WINDOWS\Microsoft.NET\Framework\v3.5\MSBuild.exe" />
+		<!-- <property name="msbuild" value="${framework::get-framework-directory(framework::get-target-framework())}/MSBuild.exe" /> -->
+		
+		<!-- ******* -->
+		<!-- Targets -->
+		<!-- ******* -->
+		
+		<target name="all" description="Do all routine." depends="clean, build, build.test, test" />
+		
+		<target name="clean" description="Replace/Delete all previously compiled binaries">
+			<delete>
+				 <fileset>
+				    <!-- if all -->
+					<exclude name="**\bin\*.svn" />
+					<exclude name="**\bin\debug\*.settings.xml" />
+					<include name="**\bin\debug\*.exe" />
+					<include name="**\bin\debug\*.xml" />
+					<include name="**\bin\debug\*.dll" />
+					<include name="**\bin\debug\*.pdb" />
+				 </fileset>
+			</delete>
+		</target>
+		
+		<target name="build" description="Build all targets">
+			<mkdir dir="${perfcheck.bin.directory}" />
+			<!-- call targets -->
+			<call target="PerfCheck" /> 		
+		</target>
+
+		<target name="build.test">
+			<mkdir dir="${test.perfcheck.bin.directory}" />
+			<call target="TestPerfCheck" />
+		</target>
+
+		<target name="test" description="Test and generate test coverage.">
+			<mkdir dir="{PartCoverHome}" if="${not directory::exists(PartCoverHome)}" />
+			<exec program="${PartCoverExePath}\PartCover.exe" failonerror="false">
+			<arg value="--settings &quot;${PartCoverHome}\${PartCoverSettingsFileName}&quot;" />
+			<arg value="--output &quot;${PartCoverHome}\${PartCoverReportFileName}&quot;" />
+			</exec>
+			<call target="copy" />
+			<call target="generateHTMLReport" />
+		</target>
+		
+		<target name="copy" description="Copy unit test result to jenkins root">
+		  
+		   <copy todir="${JENKINS_HOME}\jobs\PerfCheck 1.0.2\workspace" overwrite="true">
+				<fileset basedir="${test.perfcheck.bin.directory}\Debug">
+					<include name="*.xml" />
+				</fileset>
+		   </copy>
+		</target>
+		
+		<target name="generateHTMLReport" description="Generate Code Coverage HTML Report">
+			<style style="${PartCoverHome}\PartCoverFullReport.xslt" in="${PartCoverHome}\${PartCoverReportFileName}" out="${PartCoverHome}\coverage.html" />
+		</target>
+		
+		<!-- ***************** -->
+		<!-- Projects to build -->
+		<!-- ***************** -->
+		<!-- Build PerfCheck Project -->
+		<target name="PerfCheck">
+			<exec program="${msbuild}" commandline='"${MainProjectPath}\PerfCheck.vbproj" /v:n /nologo /t:Build /p:Configuration=${config};OutDir="${perfcheck.bin.directory}/Debug/"' />
+		</target>
+		<!-- Build PerfCheck Test Project -->
+		<target name="TestPerfCheck">
+			<exec program="${msbuild}" commandline='"${TestProjectPath}\PerfCheck.Tests.vbproj" /v:q /nologo /t:Build /p:Configuration=${config};OutDir="${test.perfcheck.bin.directory}/Debug/"' />
+		</target>
+		
+	</project>

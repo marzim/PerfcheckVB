@@ -1,0 +1,6 @@
+; This is the trace file event definition dictionary for the BagScale SO DataCapture
+;aliasname, phrase
+
+Motor1_Forward, +CNCRMotorCOCtrl::StartForward
+Motor1_Stop, +CNCRMotorCOCtrl::Stop
+Motor1_Reverse, +CNCRMotorCOCtrl::StartReverse

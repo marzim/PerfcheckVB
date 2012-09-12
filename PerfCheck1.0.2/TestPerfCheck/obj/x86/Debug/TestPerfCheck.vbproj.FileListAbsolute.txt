@@ -1,0 +1,10 @@
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\TestPerfCheck\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\TestPerfCheck\bin\Debug\TestPerfCheck.exe
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\TestPerfCheck\bin\Debug\TestPerfCheck.pdb
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\TestPerfCheck\bin\Debug\nunit.framework.dll
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\TestPerfCheck\bin\Debug\PerfCheck.exe
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\TestPerfCheck\bin\Debug\Ionic.Zip.dll
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\TestPerfCheck\bin\Debug\PerfCheck.pdb
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\TestPerfCheck\bin\Debug\PerfCheck.xml
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\TestPerfCheck\obj\x86\Debug\TestPerfCheck.exe
+C:\mc185104\myGdrive\Google Drive\projects\vbnet\TestPerfCheck\obj\x86\Debug\TestPerfCheck.pdb

@@ -1,0 +1,11 @@
+; This is the trace file event definition dictionary for ScotApp's Traces.log
+;aliasname, phrase
+
+ScaleSent, Got wt: 
+GotStableWeight, A STABLE weight of
+GotScaleUnstable, A UNSTABLE weight of
+StartSCT, In ProcessStableWeight  Wrong item was placed on the scale
+FireUnMatchedWeight, In HandleSlowConclusionTimeout Fired Unmatched Event.
+FireMatchedWeight, In ProcessStableWeight  Fired Matched Event.
+SetSoldItemInfo_, Entering SetSoldItemInfo
+SellingZeroWeightItem, In Detected a new zero weight item.

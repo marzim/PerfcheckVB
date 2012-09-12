@@ -1,0 +1,8 @@
+EndDrawContext, EventName:ChangeContext,
+ButtonClick, EventName:Click,
+EnterQuantityDrawn, ContextName:EnterQuantity, EventName:ChangeContext,
+DrawAttract, RemoteConnectionName:, ControlName:Display, ContextName:Attract, EventName:ChangeContext,
+DrawQuickPick, RemoteConnectionName:, ControlName:Display, ContextName:QuickPickItems, EventName:ChangeContext,
+ClickPickList, RemoteConnectionName:, ControlName:ProductImage, ContextName:ProduceFavorites, EventName:Click,
+DrawContinueTrans, RemoteConnectionName:, ControlName:Display, ContextName:ContinueTrans, EventName:ChangeContext,
+ButtonClick_Attr1Lg, RemoteConnectionName:, ControlName:CMButton1Lg, ContextName:Attract, EventName:Click,

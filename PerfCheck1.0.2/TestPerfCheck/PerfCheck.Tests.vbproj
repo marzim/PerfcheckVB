@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{F7CA4960-5F56-46FD-9C88-91294C36C295}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <MyType>Windows</MyType>
+    <RootNamespace>PerfCheck.Tests</RootNamespace>
+    <AssemblyName>PerfCheck.Tests</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <OptionInfer>On</OptionInfer>
+    <SignAssembly>False</SignAssembly>
+    <DelaySign>False</DelaySign>
+    <RunCodeAnalysis>False</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <DefineConstants>DEBUG=1,TRACE=1</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <DefineConstants>TRACE=1</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.Targets" />
+  <ItemGroup>
+    <Reference Include="nunit.framework">
+      <HintPath>..\..\..\..\..\..\Program Files\SharpDevelop\4.2\bin\Tools\NUnit\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutTheToolTests.vb" />
+    <Compile Include="CExclusionsTests.vb" />
+    <Compile Include="CommandLineTests.vb" />
+    <Compile Include="CPatternArrayTests.vb" />
+    <Compile Include="CPatternPointersTests.vb" />
+    <Compile Include="CPatternPointerTests.vb" />
+    <Compile Include="CPatternsTests.vb" />
+    <Compile Include="CPatternTests.vb" />
+    <Compile Include="CStatisticsTests.vb" />
+    <Compile Include="CsvExporterTests.vb" />
+    <Compile Include="ExportFileControllerTests.vb" />
+    <Compile Include="ExtendedStreamReaderTests.vb" />
+    <Compile Include="ExtendedStringReaderTests.vb" />
+    <Compile Include="FormAnalyisMainTests.vb" />
+    <Compile Include="FormDiagOpenTests.vb" />
+    <Compile Include="FormListClkCtrlTests.vb" />
+    <Compile Include="FormLogAnalSearchTests.vb" />
+    <Compile Include="FormMeasurementDetailTests.vb" />
+    <Compile Include="FormSearchStringTests.vb" />
+    <Compile Include="LogEventsControllerTests.vb" />
+    <Compile Include="LogEventsSummaryTests.vb" />
+    <Compile Include="LogEventsTests.vb" />
+    <Compile Include="LogFileControllerTests.vb" />
+    <Compile Include="LogFileFormTests.vb" />
+    <Compile Include="MessageServiceTests.vb" />
+    <Compile Include="PatternNodeTests.vb" />
+    <Compile Include="PerfMeasuresTests.vb" />
+    <Compile Include="PhrasesTests.vb" />
+    <Compile Include="RegistryHelperTests.vb" />
+    <Compile Include="RegistryManagerStub.vb" />
+    <Compile Include="RegistryManagerTests.vb" />
+    <Compile Include="SignifEventsTests.vb" />
+    <Compile Include="SystemInfoControllerTests.vb" />
+    <Compile Include="TemplatesTests.vb" />
+    <Compile Include="TestData.vb" />
+    <Compile Include="TokenTests.vb" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb" />
+    <Compile Include="Program.vb" />
+    <Compile Include="Properties\AssemblyInfo.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PerfCheck\PerfCheck.vbproj">
+      <Project>{D4714878-A3D5-43F5-95C5-30FA7094FA4C}</Project>
+      <Name>PerfCheck</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ProfilingSessions\Session20120730_115320.sdps" />
+    <Content Include="ProfilingSessions\Session20120731_181916.sdps" />
+    <Content Include="ProfilingSessions\Session20120801_140959.sdps" />
+    <Content Include="ProfilingSessions\Session20120801_141255.sdps" />
+    <Content Include="ProfilingSessions\Session20120824_131817.sdps" />
+  </ItemGroup>
+</Project>

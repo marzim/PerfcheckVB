@@ -1,0 +1,6 @@
+; This is the trace file event definition dictionary for scanner.log
+;aliasname, phrase
+
+;ScannerEnable, +RequestScannerEnable
+;ScannerDisable, +RequestScannerDisable
+;ScannerScan, *EventMan::AddEvent

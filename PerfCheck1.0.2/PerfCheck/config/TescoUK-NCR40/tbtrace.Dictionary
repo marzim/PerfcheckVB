@@ -1,0 +1,7 @@
+; This is the trace file event definition dictionary for the Tesco PA TB trace log
+;aliasname, phrase
+
+;PA_SELL, :TBEnterItem()
+;PA_RECEIPT_DATA, message name="ReceiptData"
+;PA_TOTAL, CCustomerMHTotals::GetTotalDetails()
+;Start, :CCustomerMHTransaction::Start

@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<PartCoverSettings>
+<!-- <property name="NunitHome" value="${environment::get-variable('NUnitHome')}\nunit-console-x86.exe"/> -->
+<Target>C:\CI-Tools\NUnit\nunit-console-x86.exe</Target>
+<!-- <Target>${environment::get-variable('NUnitHome')}\nunit-console-x86.exe</Target> -->
+<TargetWorkDir>C:\PerfCheck1.0.2\TestPerfCheck\bin\Debug</TargetWorkDir>
+<TargetArgs>PerfCheck.Tests.dll /xml=C:\PerfCheck1.0.2\TestPerfCheck\bin\Debug\TestResults.xml</TargetArgs>
+<Rule>+[PerfCheck*]*</Rule>
+</PartCoverSettings>

@@ -1,0 +1,12 @@
+; This is the trace file event definition dictionary for the BagScale SO DataCapture
+;aliasname, phrase
+
+StableWeight, Rc = 0, RcEx = 0
+UnStableWeight, Rc = 111, RcEx = 202
+;ScaleShift, Shift Factor is
+
+ScaleFilter@1, mode|raw|f1|f2, 1,
+ScaleFilter@2, mode|raw|f1|f2, 2,
+ScaleFilter@5, mode|raw|f1|f2, 5,
+;SO_StableWeight, In Motion = 0
+;SO_UnStableWeight, In Motion = 1

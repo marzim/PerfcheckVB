@@ -1,0 +1,108 @@
+; This is the trace file event definition dictionary for ScotApp's Traces.log
+;aliasname, phrase
+PicklistSale, ;upc-entry[text]=pick
+To_EnterQuantity, Changing state to SMEnterQuantity,
+From_EnterQuantity, Changing state from SMEnterQuantity
+Produce_Scale, SM-SMdmBase@5922 Scale weight =
+GotoQuickPick, PSXEventHandler Event( ,QuickPickImage,QuickPickItems,Click
+
+;;TransactionStart, +ra.OnTransactionStart
+;TB_ItemSold, TB item sale
+ItemDetails, SetItemDetails--ItemDetail:
+TB_Start, TBStart--szLanguageCode
+PSX_Done, -EventHandler Event( ,Display,BagAndEAS,ChangeContext )
+App_Waiting, SMState::TBParse() and not ScanAndBag state, 
+
+To_SMBagAndEAS, Changing state to SMBagAndEAS,
+From_SMBagAndEAS, Changing state from SMBagAndEAS
+To_SMScanAndBag, Changing state to SMScanAndBag,
+From_SMScanAndBag, Changing state from SMScanAndBag
+To_SMInProgress, Changing state to SMInProgress,
+From_SMInProgress, Changing state from SMInProgress
+To_SMTransportItem, Changing state to SMTransportItem,
+From_SMTransportItem, Changing state from SMTransportItem
+To_SMInSAProgress, Changing state to SMInSAProgress,
+From_SMInSAProgress, Changing state from SMInSAProgress
+
+To_SMFinish, Changing state to SMFinish
+From_SMFinish, Changing state from SMFinish
+;To_SMGetFoodStampState, Changing state to SMGetFoodStampState,
+;From_SMGetFoodStampState, Changing state from SMGetFoodStampState
+To_SMSwipeCard, Changing state to SMSwipeCard,
+From_SMSwipeCard, Changing state from SMSwipeCard
+To_SMCardProcessing, Changing state to SMCardProcessing,
+From_SMCardProcessing, Changing state from SMCardProcessing
+To_SMRequestSig, Changing state to SMRequestSig,
+From_SMRequestSig, Changing state from SMRequestSig
+To_SMTakeCard, Changing state to SMTakeCard,
+From_SMTakeCard, Changing state from SMTakeCard
+To_SMTakeReceipt, Changing state to SMTakeReceipt,
+From_SMTakeReceipt, Changing state from SMTakeReceipt
+To_SMThankYou, Changing state to SMThankYou,
+From_SMThankYou, Changing state from SMThankYou
+To_SMAttract, Changing state to SMAttract,
+From_SMAttract, Changing state from SMAttract
+
+;To_SMPickingUpItems, Changing state to SMPickingUpItems,
+;From_SMPickingUpItems, Changing state from SMPickingUpItems
+To_SMSecUnexpectedDecrease, Changing state to SMSecUnexpectedDecrease,
+From_SMSecUnexpectedDecrease, Changing state from SMSecUnexpectedDecrease
+To_SMSecUnexpectedIncrease, Changing state to SMSecUnExpectedIncrease,
+From_SMSecUnexpectedIncrease, Changing state from SMSecUnExpectedIncrease
+To_SMSecMisMatchWeight, Changing state to SMSecMisMatchWeight,
+From_SMSecMisMatchWeight, Changing state from SMSecMisMatchWeight
+;To_SMPickingUpItems, Changing state to SMPickingUpItems,
+;From_SMPickingUpItems, Changing state from SMPickingUpItems
+
+;To_WaitRemoteAssist, Changing state to SMWaitForRemoteAssistance,
+;From_WaitRemoteAssist, Changing state from SMWaitForRemoteAssistance
+;To_AssistMode, Changing state to SMSmAssistMode,
+;From_AssistMode, Changing state from SMSmAssistMode
+To_SmAuthorization, Changing state to SMSmAuthorization,
+From_SmAuthorization, Changing state from SMSmAuthorization,
+To_SmSelectModeOfOperation, Changing state to SMSmSelectModeOfOperation,
+From_SmSelectModeOfOperation, Changing state from SMSmSelectModeOfOperation
+To_SMSmSystemFunctions, Changing state to SMSmSystemFunctions,
+From_SMSmSystemFunctions, Changing state from SMSmSystemFunctions
+To_SMProduceFavorites, Changing state to SMProduceFavorites,
+From_SMProduceFavorites, Changing state from SMProduceFavorites
+To_SMEnterWeight, Changing state to SMEnterWeight,
+From_SMEnterWeight, Changing state from SMEnterWeight
+To_SMSwipeCard, Changing state to SMSwipeCard,
+From_SMSwipeCard, Changing state from SMSwipeCard
+To_SMProcessingTescoSCARD_WAIT, Changing state to SMProcessingTescoSCARD_WAIT,
+From_SMProcessingTescoSCARD_WAIT, Changing state from SMProcessingTescoSCARD_WAIT
+From_TescoEXTMSG_02, Changing state from SMProcessingTescoEXTMSG_02
+To_TescoEXTMSG_02, Changing state to SMProcessingTescoEXTMSG_02,
+From_SMCmDataEntry, Changing state from SMCmDataEntry
+To_SMCmDataEntry, Changing state to SMCmDataEntry,
+
+To_SMCashPayment, Changing state to SMCashPayment,
+From_SMCashPayment, Changing state from SMCashPayment
+To_SMTakeChange, Changing state to SMTakeChange,
+From_SMTakeChange, Changing state from SMTakeChange
+To_SMPickingUpItems, Changing state to SMPickingUpItems,
+From_SMPickingUpItems, Changing state from SMPickingUpItems
+To_SMCmDataEntry, Changing state to SMCmDataEntry,
+From_SMCmDataEntry, Changing state from SMCmDataEntry
+
+To_SMSecUnexpectedDecrease, Changing state to SMSecUnexpectedDecrease,
+From_SMSecUnexpectedDecrease, Changing state from SMSecUnexpectedDecrease
+To_SMSecMisMatchWeight, Changing state to SMSecMisMatchWeight,
+From_SMSecMisMatchWeight, Changing state from SMSecMisMatchWeight
+To_SMSecUnExpectedIncrease, Changing state to SMSecUnExpectedIncrease,
+From_SMSecUnExpectedIncrease, Changing state from SMSecUnExpectedIncrease
+
+
+;Clr_Security, ::SAClearSecurityCondition - RAP
+RED, +setTriColorLight, color = 3
+YELLOW, +setTriColorLight, color = 2
+GREEN, +setTriColorLight, color = 1
+ItemScanned, Parse DM evt 0, dev 11,
+ScannerEnable, DM-DMp@3483 +DMp::Enable 11 1
+EnterTender, TBEnterTender--nType:
+BeginCashTender, type[text]=normal-item;description[text]=[SummaryX]Begin Cash Tender.
+Note_Inserted, type[text]=normal-item;description[text]=[SummaryX]£
+Dispense, +CashChangerDispense - Amount
+GetCashCounts, DMCashCount::GetCashCounts
+Device_Error, +SMStateBase::GetDeviceErrorMnemonic() 

@@ -1,0 +1,60 @@
+; DONT USE TABS to FORMAT THIS FILE
+;
+;FireMatchedWeight, UpdateWLDB, Tab->Motor_ForwardBelt1, To_SMTransportItem
+;
+;
+
+;ItemScanned, ScaleFilter@1
+;
+;           , StableWeight
+;ItemScanned, ScaleFilter@1, StableWeight
+
+;ItemScanned, DbLookupSuccess, To_SMInProgress, TB_ItemDetails, From_SMInProgress, To_SMBagAndEAS, SetSoldItemInfo
+;           , To_SMInProgress, DbLookupSuccess, TB_ItemDetails, From_SMInProgress, To_SMBagAndEAS, SetSoldItemInfo
+
+ItemScanned, From_SMScanAndBag, Sec_Waiting, App_Waiting
+           ,                  , App_Waiting, Sec_Waiting
+
+;ItemScanned, Matched_Weight
+
+;ItemScanned, TB_ItemSold, From_SMScanAndBag, TB_ItemDetails, To_SMBagAndEAS, App_Waiting, Sec_Waiting, Matched_Weight
+;           , TB_Start, TB_ItemSold, TB_ItemDetails, Sec_Waiting, To_SMBagAndEAS, App_Waiting, Matched_Weight
+;
+;ItemScanned, StartItemLookup, DbLookupSuccess, TB_ItemDetails,  To_SMBagAndEAS, SetSoldItemInfo
+;           , StartItemLookup, TB_ItemDetails,  DbLookupSuccess, To_SMBagAndEAS, SetSoldItemInfo
+;           , TB_Start, StartItemLookup, TB_ItemDetails,  DbLookupSuccess, To_SMBagAndEAS, SetSoldItemInfo
+;           , TB_Start, StartItemLookup, DbLookupSuccess, TB_ItemDetails,  To_SMBagAndEAS, SetSoldItemInfo
+
+;ItemScanned, To_SMScanAndBag
+;    , NoWeights, To_SMScanAndBag
+;    , NoWeights, UnMatchedWeight, To_SMScanAndBag
+;    , SetSoldItemInfo, UnMatchedWeight, BackToLGW, To_SMScanAndBag
+;    ,                ,                   , Clr_Security, To_SMScanAndBag
+;    , To_SMSecMisMatchWeight,  BackToLGW, To_SMScanAndBag
+;    ,                       ,  Clr_Security, To_SMScanAndBag
+;    , To_SMSecUnexpectedIncrease,  BackToLGW, To_SMScanAndBag
+;    ,                           ,  Clr_Security, To_SMScanAndBag
+;    , To_SMSecUnexpectedDecrease,  BackToLGW, To_SMScanAndBag
+;    ,                           ,  Clr_Security, To_SMScanAndBag
+;    , To_SMPickingUpItems, BackToLGW, To_SMScanAndBag
+;    ,                    , Clr_Security, To_SMScanAndBag
+;
+;    , To_SMSecUnexpectedIncrease,  To_SMSecUnexpectedDecrease, To_SMScanAndBag
+;    ,                           ,  To_SMPickingUpItems, To_SMScanAndBag
+;    , To_SMSecUnexpectedDecrease,  To_SMPickingUpItems,  To_SMScanAndBag
+;    ,                           ,  To_SMSecUnexpectedIncrease,  To_SMScanAndBag
+;    , To_SMPickingUpItems,  To_SMSecUnexpectedDecrease, To_SMScanAndBag
+;    ,                    ,  To_SMSecUnexpectedIncrease,  To_SMScanAndBag
+
+
+;ItemScanned, NoWldb , SetSoldItemInfo
+;   , DbLookupSuccess, SetSoldItemInfo
+;   ,SetSoldItemInfo
+;
+; ItemScanned, From_SMInSAProgress, SetSoldItemInfo
+; ,SetSoldItemInfo
+;5992DisplayForm, SetSoldItemInfo
+
+;PA_SELL_EAN, PA_EV_RECEIPT_DATA, PA_OP_TOTAL
+
+;TB_EnterItem, ;PA_SELL_EAN,PA_EV_RECEIPT_DATA,PA_OP_TOTAL,PA_OP_COMPLETE,To_InProgress,Post_TB_ITEMSOLD,To_Bag&EAS,To_Scan&Bag,Post_TB_TOTALS

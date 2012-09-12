@@ -1,0 +1,6 @@
+; This is the trace file event definition dictionary for DbClientMgr.ocx DataCapture log
+;aliasname, phrase
+
+Update, Update for UPC: 
+NoWldb, No WLDB Weight Info
+NoExceptions, No Item Exception Info exists

@@ -1,0 +1,23 @@
+;This is the eventname ~ patternvalue definition files
+;eventname ~ patternvalue
+
+ItemDetails ~ szDescription:
+Description ~ key=item-description.  value=
+Weight_Entered ~ io.lWeightEntered:
+ProduceScale ~ SMState::DMScale lDMScaleWeight
+Matched_Weight ~ wt:
+WLDB_Lookup ~ lexpectedWt:
+UnMatched_Weight ~ UnMatched: Weight increase of
+;SO_StableWeight ~ Weight = 
+ScaleSent ~ Got wt: 
+StableWeight ~ Read Weight returns
+;ScaleShift ~ Shift Factor is 
+ScaleFilter@5 ~ mode|raw|f1|f2, 5,
+SS_Event ~ PostSS SS
+Tab--StateChange ~ Transition from
+SetSoldItemInfo ~ #0: 
+TB_ItemSold ~  <
+Expected_Wt ~ lexpectedWt: 
+PerfMon ~ WSS=
+EndDrawContext ~ ContextName:
+ButtonClick ~ ControlName:
