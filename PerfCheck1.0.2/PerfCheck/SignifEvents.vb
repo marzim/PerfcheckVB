@@ -438,7 +438,7 @@ Imports System.IO
 			Try		
 				 'n = InStr(1, s, ")")
 				 'If (n > 0) Then
-				 
+				 'comments
 				 If value.Contains(")") Then                    
 				 	'LineNo = Val(Left(s, n - 1))
 				 	
