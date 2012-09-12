@@ -436,11 +436,12 @@ Imports System.IO
 			'  18) 08/21 13:05:18;0422090884 PS-PSi@162  Tue May 14 14:18:24 2002
 					'isolate lineNo, tod, TimeMs, and remainder of line
 			Try		
-				 n = InStr(1, s, ")")
+				 'n = InStr(1, s, ")")
 				 'If (n > 0) Then
-				 If value.Contains(")") Then
-                    'On Error GoTo BadLine
-                    LineNo = Val(Left(s, n - 1))
+				 'comments
+				 If value.Contains(")") Then                    
+				 	'LineNo = Val(Left(s, n - 1))
+				 	
                     m = InStr(n + 1, s, ";")
                     TimeOfDay_Renamed = Mid(s, n + 2, m - n - 2)
                     n = InStr(m + 1, s, delim)
