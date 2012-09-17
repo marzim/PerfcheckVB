@@ -411,9 +411,9 @@ Imports System.IO
 			Dim l As Long
 	        Dim s1 As String
 	        ParseSourceFileLine = Nothing	 
-	        If valueToProcess.Length <= 2 Then
-	        	Return Nothing
-	        End If
+'	        If valueToProcess.Length <= 2 Then
+'	        	Return Nothing
+'	        End If
 			Try
 				Select Case (mvarSourceFileFormat)
 				Case eSourceFileFormat.eTraceLog					
